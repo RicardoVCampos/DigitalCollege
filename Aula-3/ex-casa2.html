@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 de Casa</title>
+</head>
+
+<body>
+    <fieldset>
+        <h1>
+            <font color="blue">Declaração de Atividades Desenvolvidas</font>
+        </h1>
+        <hr>
+        <fieldset>
+            <legend><strong>
+                    <font color="blue">Atividade</font>
+                </strong></legend>
+            <label for="">Categoria:</label>
+            <select size="" id="">
+                <option value="">--selecione--</option>
+                <option value="">alguma</option>
+                <option value="">coisa</option>
+            </select>
+            <br>
+            <label for="">Descrição:</label>
+            <select name="" id="">
+                <option value="">--selecione--</option>
+                <option value="">alguma</option>
+                <option value="">coisa</option>
+            </select>
+            <br>
+            <label>Data de Início de Atividade:</label>
+            <input type="date">
+            <br>
+            <button>
+                <font color="blue">Adicionar Atividade</font>
+            </button>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Observação</strong></legend>
+            <label for=""><strong>
+                    <font color="darkblue">Observação:</font>
+                </strong></label>
+            <br>
+            <p>
+                <font color="blue">A remoção de atividade é permitida para atividades não vistoriadas até dois dias após
+                    sua declaração.</font>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>
+                    <font color="blue">Relação de Atividades</font>
+                </strong></legend>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th><strong>
+                                <font color="darkblue">Relação de Atividades Vistoriadas</font>
+                            </strong></th>
+                    </tr>
+                </thead>
+                <thead>
+                    <th>
+                        <font color="blue">Nº</font>
+                    </th>
+                    <th>
+                        <font color="blue">Categoria</font>
+                    </th>
+                    <th>
+                        <font color="blue">Descrição</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Inicío de Atividades</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Término de Atividades</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Declaração</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Vistoria</font>
+                    </th>
+                    <th>
+                        <font color="red">OPERAÇÃO</font>
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Gerenciador de Projeto</td>
+                        <td>Usina Hidroelétrica</td>
+                        <td>
+                            <font color="red">Declarado: 26/02/2007</font><br>
+                            <font color="blue">Vistoriado: 30/03/2007</font>
+                        </td>
+                        <td></td>
+                        <td>26/02/2007</td>
+                        <td>27/08/2007</td>
+                        <td><a
+                                href="https://www.google.com/search?q=adequar+significado&sca_esv=c19764992d3f5b02&sca_upv=1&sxsrf=ADLYWILUCD7PC0uoBVN7bj0aiOGlQ91n0w%3A1725695202971&ei=4gTcZsCCO8r31sQPt6CC4AQ&ved=0ahUKEwjA-8DMq7CIAxXKu5UCHTeQAEwQ4dUDCBA&uact=5&oq=adequar+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2FkZXF1YXIgc2lnbmlmaWNhZG8yChAAGIAEGEYY-QEyCBAAGAcYHhgPMggQABgHGB4YDzIGEAAYBxgeMgYQABgeGA8yBhAAGB4YDzIEEAAYHjIGEAAYHhgPMgQQABgeMgYQABgIGB4yJBAAGIAEGEYY-QEYlwUYjAUY3QQYRhj5ARj0Axj1Axj2A9gBAUicL1DxHFigKXAKeAGQAQCYAcABoAG8C6oBAzAuOLgBA8gBAPgBAZgCD6AC7gjCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICBxAAGIAEGA3CAggQABgHGAoYHsICDBAAGIAEGA0YRhj5AcICCBAAGAcYCBgewgImEAAYgAQYDRhGGPkBGJcFGIwFGN0EGEYY-QEY9AMY9QMY9gPYAQHCAiQQABiABBhGGPkBGJcFGIwFGN0EGEYY-QEY9AMY9QMY9gPYAQGYAwCIBgGQBgq6BgYIARABGBOSBwYxMC4xLjSgB_U9&sclient=gws-wiz-serp">Adequar</a><br><a
+                                href="https://www.google.com/search?q=vistoria+significado&sca_esv=c19764992d3f5b02&sca_upv=1&sxsrf=ADLYWIKWTraJaY4wGHHtwy0DoeVUjjsHfw%3A1725695198216&ei=3gTcZrP0DLfY1sQP9aKfgQ4&oq=vistoria+sig&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHZpc3RvcmlhIHNpZyoCCAAyChAAGIAEGEYY-QEyCxAuGIAEGMcBGK8BMgUQABiABDIGEAAYFhgeMgYQABgWGB4yCBAAGBYYHhgPMggQABgWGB4YDzIIEAAYFhgeGA8yCBAAGBYYHhgPMggQABgWGB4YDzIkEAAYgAQYRhj5ARiXBRiMBRjdBBhGGPkBGPQDGPUDGPYD2AECSJkWUPECWOQKcAF4AZABAJgBwwGgAeYFqgEDMC40uAEByAEA-AEBmAIGoALoEcICDRAAGLADGNYEGEcYyQPCAgoQABiwAxjWBBhHwgIOEAAYgAQYsAMYkgMYigXCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICCBAAGIAEGLEDwgIOEC4YgAQYxwEYjgUYrwHCAhoQLhiABBjHARivARiXBRjcBBjeBBjgBNgBAcICJBAAGIAEGEYY-QEYlwUYjAUY3QQYRhj5ARj0Axj1Axj2A9gBApgDAIgGAZAGCroGBggBEAEYFLoGBggCEAEYE5IHCTEuMi4yLjctMaAHjio&sclient=gws-wiz-serp">Vistoria</a>
+                        </td>
+                    </tr>
+                </tbody>
+
+        </fieldset>
+        </table>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th><strong>
+                            <font color="darkblue">Relação de Atividades Ativas</font>
+                        </strong></th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>
+                        <font color="blue">Nº</font>
+                    </th>
+                    <th>
+                        <font color="blue">Categoria</font>
+                    </th>
+                    <th>
+                        <font color="blue">Descrição</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Início de Atividades</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Declaração</font>
+                    </th>
+                    <th>
+                        <font color="red">OPERAÇÃO</font>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Gerenciador de Projeto</td>
+                    <td>LInha de Transmição</td>
+                    <td>01/08/2007</td>
+                    <td>21/08/2007</td>
+                    <td><a
+                            href="https://www.google.com/search?q=encerrar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&sxsrf=ADLYWIKzQtGG0MSWXeNp0Adc2xgxyZbNvQ:1725698416096&source=lnms&sa=X&ved=2ahUKEwjHxdLIt7CIAxUWQ7gEHc6PBSwQ0pQJegQIAxAC&biw=767&bih=703&dpr=1.25#cobssid=s">Encerrar</a><br><a
+                            href="https://www.google.com/search?q=retificar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&oq=reti+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJldGkgc2lnbmlmaWNhZG8qAggAMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5Ipw5QAFiUBXAAeAGQAQCYAbEBoAG2BaoBAzAuNLgBAcgBAPgBAZgCA6ACsgSYAwCSBwMwLjOgB5YW&sclient=gws-wiz-serp">Retificar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Industria de Produtos Alimentares e Bebidas</td>
+                    <td>Fabricação de vinhos e vinagre</td>
+                    <td>01/10/2002</td>
+                    <td>21/08/2007</td>
+                    <td><a
+                            href="https://www.google.com/search?q=encerrar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&sxsrf=ADLYWIKzQtGG0MSWXeNp0Adc2xgxyZbNvQ:1725698416096&source=lnms&sa=X&ved=2ahUKEwjHxdLIt7CIAxUWQ7gEHc6PBSwQ0pQJegQIAxAC&biw=767&bih=703&dpr=1.25#cobssid=s">Encerrar</a><br><a
+                            href="https://www.google.com/search?q=retificar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&oq=reti+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJldGkgc2lnbmlmaWNhZG8qAggAMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5Ipw5QAFiUBXAAeAGQAQCYAbEBoAG2BaoBAzAuNLgBAcgBAPgBAZgCA6ACsgSYAwCSBwMwLjOgB5YW&sclient=gws-wiz-serp">Retificar</a>
+                    </td>
+                </tr>
+
+            </tbody>
+
+
+        </table>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <strong>
+                            <font color="darkblue">Relação de Atividades Encerradas</font>
+                        </strong>
+                    </th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>
+                        <font color="blue">Nº</font>
+                    </th>
+                    <th>
+                        <font color="blue">Categoria</font>
+                    </th>
+                    <th>
+                        <font color="blue">Descrição</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Início de Atividades</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Término de Atividades</font>
+                    </th>
+                    <th>
+                        <font color="blue">Data de Declaração</font>
+                    </th>
+                    <th>
+                        <font color="red">OPERAÇÃO</font>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Indústria de Madeira</td>
+                    <td>Serraria e desdobramentos de madeira</td>
+                    <td>01/10/2006</td>
+                    <td>24/08/2007</td>
+                    <td>21/08/2007</td>
+                    <td><a
+                            href="https://www.google.com/search?q=ativar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&ved=0ahUKEwiq6uLqu7CIAxWEpZUCHaDgOgkQ4dUDCBA&uact=5&oq=ativar+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmF0aXZhciBzaWduaWZpY2FkbzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzINEAAYgAQYsAMYQxiKBUi1BVAAWABwAXgBkAEAmAEAoAEAqgEAuAEDyAEAmAIBoAIKmAMAiAYBkAYJkgcBMaAHAA&sclient=gws-wiz-serp">Ativar</a><br><a
+                            href="https://www.google.com/search?q=retificar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&oq=reti+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJldGkgc2lnbmlmaWNhZG8qAggAMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5Ipw5QAFiUBXAAeAGQAQCYAbEBoAG2BaoBAzAuNLgBAcgBAPgBAZgCA6ACsgSYAwCSBwMwLjOgB5YW&sclient=gws-wiz-serp">Retificar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Indústria de Produtos Alimentares e Bebidas</td>
+                    <td>Fabricação de Bebidas Aloólicas</td>
+                    <td>01/01/2001</td>
+                    <td>24/08/2007</td>
+                    <td>13/11/2006</td>
+                    <td><a
+                            href="https://www.google.com/search?q=ativar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&ved=0ahUKEwiq6uLqu7CIAxWEpZUCHaDgOgkQ4dUDCBA&uact=5&oq=ativar+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmF0aXZhciBzaWduaWZpY2FkbzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzINEAAYgAQYsAMYQxiKBUi1BVAAWABwAXgBkAEAmAEAoAEAqgEAuAEDyAEAmAIBoAIKmAMAiAYBkAYJkgcBMaAHAA&sclient=gws-wiz-serp">Ativar</a><br><a
+                            href="https://www.google.com/search?q=retificar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&oq=reti+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJldGkgc2lnbmlmaWNhZG8qAggAMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5Ipw5QAFiUBXAAeAGQAQCYAbEBoAG2BaoBAzAuNLgBAcgBAPgBAZgCA6ACsgSYAwCSBwMwLjOgB5YW&sclient=gws-wiz-serp">Retificar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Transporte, Terminais, Depósitos e Comércio</td>
+                    <td>Titular de registro de substâncias químico-perigosas para comercialização de forma direta ou
+                        indireta</td>
+                    <td>01/0/2001</td>
+                    <td>21/08/2007</td>
+                    <td>31/10/2006</td>
+                    <td><a
+                            href="https://www.google.com/search?q=ativar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&ved=0ahUKEwiq6uLqu7CIAxWEpZUCHaDgOgkQ4dUDCBA&uact=5&oq=ativar+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmF0aXZhciBzaWduaWZpY2FkbzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzINEAAYgAQYsAMYQxiKBUi1BVAAWABwAXgBkAEAmAEAoAEAqgEAuAEDyAEAmAIBoAIKmAMAiAYBkAYJkgcBMaAHAA&sclient=gws-wiz-serp">Ativar</a><br><a
+                            href="https://www.google.com/search?q=retificar+significado&sca_esv=27d3ba3de6a1b723&sca_upv=1&biw=767&bih=703&sxsrf=ADLYWIIC5hx9PI6lWAsBOZPNHboqPxma-A%3A1725699561408&ei=6RXcZurRGITL1sQPoMHrSQ&oq=reti+significado&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJldGkgc2lnbmlmaWNhZG8qAggAMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5Ipw5QAFiUBXAAeAGQAQCYAbEBoAG2BaoBAzAuNLgBAcgBAPgBAZgCA6ACsgSYAwCSBwMwLjOgB5YW&sclient=gws-wiz-serp">Retificar</a>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </fieldset>
+
+</body>
+
+<br>
+<br>
+<a href="/Aula-3/home.html">Voltar</a>
+
+</html>
